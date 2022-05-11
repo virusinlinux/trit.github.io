@@ -1,0 +1,265 @@
+<!-- 
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+-->
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="https://image.shutterstock.com/image-vector/clothes-hanger-logo-design-vector-260nw-1734488888.jpg  " alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        </nav>
+        
+        
+        <section id="home">
+        <h1 class="h-primary">WELCOME TO OUR CLOTHES SHOP</h1>
+        <p>THIS IS THE BEST SHOP IN INDIA   </p>
+        <p>HERE YOU WILL GET ALL VARIETY OF PRODUCTS </p>
+        <button class="btn">Order Now</button>
+    </section>
+  </body>
+  <div class="container" >
+      <h1 id="about">ABOUT US </h1>
+      <p1 id="para" >OUR clothes company is an american  clothing manufacturer subsidiary of brand management company Authentic Brands Group since March 2022. It was established in 1958 in Great Britain as a companion company to J.W. Foster and Sons, a sporting goods company which had been founded in 1895 in Bolton, Lancashire. From 1958 until 1986, the brand featured the Union Jack in its logo to signify the origins of the company. The company was bought by German sporting goods company Adidas in 2005.
+      The company's global headquarters are now located in Boston, Massachusetts, in the Seaport District, with regional offices in Amsterdam, Montreal, Hong Kong, and Mexico City. </p1>
+      <button id="btn" onclick="toggleHide()">show/hide</button>
+  </div>
+  
+  <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/1.png" alt="">
+                <h2 class="h-secondary center">RAYMOND  CLOTH</h2>
+                <p class="center">Raymond Group is an Indian branded fabric and fashion retailer,[2] incorporated in 1925. It produces suiting fabric, with a capacity of producing 31 million meters of wool and wool-blended fabrics.[3]
+
+The group owns apparel brands like Raymond, Raymond Premium Apparel, Raymond Made to Measure, Ethnix,[4] Park Avenue, Park Avenue Woman[5] ColorPlus,[6] Kamasutra & Parx. All the brands are retailed through 'The Raymond Shop' (TRS), with a network of over 700 retail shops spread across India and overseas, in over 200 cities.
+
+In addition, the group also has business interests in readymade garments, designer wear, cosmetics & toiletries, engineering files and tools, prophylactics and air charter operations. </p>
+            </div>
+            <div class="box">
+                <img src="data:image/jpeg;base64,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 " alt="">
+                <h2 class="h-secondary center">SILK CLOTHES</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, culpa suscipit error
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde laudantium a incidunt animi ad, ab dignissimos vero? Unde numquam odit repudiandae perferendis nisi.
+
+                    sint delectus ab dolorum nam. Debitis facere, incidunt voluptates eos, mollitia voluptatem iste sunt
+                    voluptas beatae facilis labore, omnis sint quae eum.</p>
+            </div>
+            <div class="box">
+                <img src=" https://4.imimg.com/data4/OY/LK/MY-3812855/woolen-sweaters-500x500.jpg " alt="">
+                <h2 class="h-secondary center">wollen clothes</h2>
+                <p class="center">.Woollen clothes or materials are made from wool or from a mixture of wool and artificial fibres. ... thick woollen socks. Woollens are clothes, especially sweaters, that are made of wool.</p>
+            </div>
+        </div>
+    </section>
+  
+  
+  <h1>CONTACT US</h1>
+  <div class="form" id="contact">
+      <input class="form-input" type="text" name="name" id="name" placeholder="Enter your name">
+      <input class="form-input" type="text" name="age" id="age" placeholder="Enter your age">
+      <input class="form-input" type="text" name="address" id="address" placeholder="Enter your address">
+      <input class="form-input" type="text" name="email" id="emal" placeholder="Enter your email">
+      <textarea class="form-input" name="dd" id="ff" rows="10" column="30" placeholder="Elaborate your concern"></textarea> 
+      <button>SUBMIT</button>
+  </div>
+  <footer class="footer">
+      <p class="text-area">
+          COPYRIGHT@COPY 2021
+      </p>
+  </footer>
+</html>
+
+<style>
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
+    border-radius: 50px;
+    margin: 5px;
+}
+    .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+}
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+ .form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%; 
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-area{
+    padding:30px 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:pink;
+    
+}
+}
+#services{
+    margin: 34px;
+    display: flex;
+}
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+   height: 160px;
+   margin: auto;
+   display: block;
+}
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url(' https://image.shutterstock.com/image-vector/woman-man-clothes-accessories-collection-260nw-1488991403.jpg') no-repeat center center/cover;
+    height: 600px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+
+#home h1{
+    color:black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p{
+    color:black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+.para{
+    background-color:light blue;
+    font-style:'ubuntu',sans serief;
+}
+
+#btn{
+    padding:10px 14px;
+    background-color: red;
+    border: 2px solid black;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+</style>
+<script>
+    function toggleHide(){
+        // let btn = document.getElementById('btn');
+        let para = document.getElementById('para'); 
+        if(para.style.display != 'none'){
+        para.style.display = 'none';
+        }
+        else{
+        para.style.display = 'block';
+        }
+    }
+    
+</script>
